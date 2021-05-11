@@ -9,6 +9,7 @@ state_size = env.observation_space.n
 qtable = np.zeros((state_size, action_size))
 
 
+# Parametres -----
 
 # Total episodes
 TOTAL_EPISODES = 15000
